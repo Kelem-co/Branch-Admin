@@ -1286,7 +1286,7 @@ export const parentsApi = {
   }): Promise<PaginatedResponse<ApiParentLink>> {
     const q = new URLSearchParams()
     Object.entries(params).forEach(([k, v]) => {
-      if (v) q.set(k, v)
+      if (v) q.set(k, String(v))
     })
     return request<PaginatedResponse<ApiParentLink>>(
       `/api/parent-links/?${q.toString()}`
@@ -1366,7 +1366,7 @@ export const teachersApi = {
   }): Promise<PaginatedResponse<ApiTeacherAssignment>> {
     const q = new URLSearchParams()
     Object.entries(params).forEach(([k, v]) => {
-      if (v) q.set(k, v)
+      if (v) q.set(k, String(v))
     })
     return request<PaginatedResponse<ApiTeacherAssignment>>(
       `/api/teacher-assignments/?${q.toString()}`
@@ -1396,7 +1396,7 @@ export const teachersApi = {
   }): Promise<PaginatedResponse<ApiHomeroomAssignment>> {
     const q = new URLSearchParams()
     Object.entries(params).forEach(([k, v]) => {
-      if (v) q.set(k, v)
+      if (v) q.set(k, String(v))
     })
     return request<PaginatedResponse<ApiHomeroomAssignment>>(
       `/api/homeroom-assignments/?${q.toString()}`
@@ -1450,7 +1450,7 @@ export const attendanceApi = {
   }): Promise<ApiDailyAttendanceStatus[]> {
     const q = new URLSearchParams()
     Object.entries(params).forEach(([k, v]) => {
-      if (v) q.set(k, v)
+      if (v) q.set(k, String(v))
     })
     const response = await request<
       ApiDailyAttendanceStatus[] | ApiDailyAttendanceStatusResponse
@@ -1466,7 +1466,7 @@ export const attendanceApi = {
   }): Promise<PaginatedResponse<ApiAttendanceSummary>> {
     const q = new URLSearchParams()
     Object.entries(params).forEach(([k, v]) => {
-      if (v) q.set(k, v)
+      if (v) q.set(k, String(v))
     })
     return request<PaginatedResponse<ApiAttendanceSummary>>(
       `/api/attendance-summaries/?${q.toString()}`
