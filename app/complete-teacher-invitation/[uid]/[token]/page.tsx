@@ -144,7 +144,7 @@ export default function CompleteTeacherInvitationPage() {
                 )}
 
                 <p className="mb-6 text-center text-xs leading-relaxed font-medium text-slate-500">
-                  Welcome to Kelem EduGov. Set your secure password below to
+                  Welcome to Kelem. Set your secure password below to
                   activate your teacher account.
                 </p>
 

@@ -3,7 +3,7 @@ import "../src/index.css"
 
 export const metadata: Metadata = {
   title: "kelem.co Branch admin",
-  description: "Branch administration dashboard for EduGov Academy",
+  description: "Branch administration dashboard for Kelem",
 }
 
 export default function RootLayout({

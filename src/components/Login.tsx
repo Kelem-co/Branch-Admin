@@ -1,5 +1,5 @@
 /**
- * Premium, glassmorphic Login component for Kelem EduGov Branch Admin.
+ * Premium, glassmorphic Login component for Kelem Branch Admin.
  */
 
 import React, { useState, useEffect } from "react"
@@ -239,7 +239,7 @@ export const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
                   disabled={isLoading}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@edugov.academy"
+                  placeholder="admin@branch.academy"
                   className="w-full rounded-xl border border-input bg-white py-3.5 pr-4 pl-12 text-sm font-semibold text-foreground transition-all outline-none placeholder:text-muted-foreground hover:border-slate-300 focus:border-primary focus:ring-4 focus:ring-primary/10 disabled:opacity-50"
                 />
               </div>

@@ -78,7 +78,7 @@ export const Header: React.FC<HeaderProps> = ({
             <input
               type="text"
               placeholder="Search students, staff, records..."
-              className="w-48 rounded-edugov border border-border-soft bg-slate-50 py-1.5 pr-4 pl-10 text-xs transition-all placeholder:text-slate-400 focus:ring-2 focus:ring-primary/20 focus:outline-none lg:w-64"
+              className="w-48 border border-border-soft bg-slate-50 py-1.5 pr-4 pl-10 text-xs transition-all placeholder:text-slate-400 focus:ring-2 focus:ring-primary/20 focus:outline-none lg:w-64"
             />
             <Search className="absolute top-2 left-3 h-4 w-4 text-slate-400" />
           </div>
@@ -199,7 +199,7 @@ export const Header: React.FC<HeaderProps> = ({
                           </label>
                           <input
                             type="text"
-                            defaultValue="EduGov Academy Central"
+                            defaultValue="Bright Academy Central"
                             className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-bold text-slate-900 transition-all outline-none focus:ring-4 focus:ring-primary/10"
                           />
                         </div>

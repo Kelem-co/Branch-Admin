@@ -1,5 +1,5 @@
 /**
- * Premium, glassmorphic Complete Invitation component for Kelem EduGov Branch Admin.
+ * Premium, glassmorphic Complete Invitation component for Kelem Branch Admin.
  */
 
 "use client"

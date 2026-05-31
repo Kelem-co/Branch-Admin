@@ -137,7 +137,7 @@
   --color-alert-soft: #fee2e2;
 
   --radius-school: 24px;
-  --radius-edugov: var(--radius-school);
+  --radius-kelem: var(--radius-school);
 
   --font-sans: var(--font-sans);
   --font-amharic: var(--font-amharic);
